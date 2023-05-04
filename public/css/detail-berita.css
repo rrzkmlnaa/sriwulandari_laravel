@@ -1,0 +1,49 @@
+.fixed-top {
+  background: white !important;
+  top: -40px;
+  transform: translateY(40px);
+  transition: transform .3s;
+  /* padding: 1.6rem; */
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.09);
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 9998;
+}
+
+.social-floating {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 9998;
+}
+
+.social-floating .icon {
+  display: inline-block;
+  background-color: #52eb0c;
+  padding: 15px 17px;
+  border-radius: 100%;
+  font-size: 24px;
+  color: white;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: #af2924;
+  color: white;
+  z-index: 9999;
+}
+
+
+@media screen and (max-width: 767px) {
+  #navbar_top {
+    display: block;
+  }
+}
